@@ -1,0 +1,64 @@
+.popup{
+    top: 50%;
+    background-color: #fff;
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+    transform: translate(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.popup-box{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+.popup-box .MuiIconButton-root{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+.popup-buttom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 5px 11px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.bot-left h4{
+    font-size: 20px;
+}
+.personal__info{
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+}
+.personal__info h4{
+    margin-left: 10px;
+}
+.popup-body textarea{
+    width: 100%;
+    min-height: 100px;
+    border: 0;
+    font-size: 25px;
+    outline: 0;
+    padding-top: 10px 0px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.submit{
+  width: 100%;
+  background-color: #2391fa;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer; 
+  margin-top: 20px;
+  border-radius: 7px; 
+}

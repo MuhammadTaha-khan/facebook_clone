@@ -1,0 +1,33 @@
+ .rightsidebar{
+   margin-top: 30px;
+    margin-right: 10px;
+    height: 100vh;
+    position: sticky;
+    top: 0;  
+    flex: 0.33;  
+}
+.right_side_header{
+  display: flex;
+  justify-content: space-between;
+}
+.header_left h3{
+  margin-left: 100px;
+}
+.header_right svg{
+  margin-left: 0 10px;
+}
+.header_right svg:hover{
+  cursor: pointer;
+}
+
+
+.personal_info{
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  margin-left: 100px;
+}
+.personal_info h4{
+  margin-left: 5px;
+  font-size: large;
+}

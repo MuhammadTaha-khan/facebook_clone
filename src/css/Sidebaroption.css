@@ -1,0 +1,17 @@
+.Sidebaroption {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .Sidebaroption:hover {
+    background-color: rgb(211 211 211/31%);
+  }
+  
+  .Sidebaroption p {
+    margin-left: 2px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  

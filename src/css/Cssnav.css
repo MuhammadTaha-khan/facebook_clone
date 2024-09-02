@@ -1,0 +1,119 @@
+.navbar {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px,20px;
+    background-color: #fff;  */
+    display: flex;
+    padding: 5px,20px;
+    background-color: #fff;
+    position: static;
+    top: 0;
+    z-index: 99;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px,0px,0px,3px #ccc;
+    position: sticky;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container img {
+    height: 40px;
+    /* width: 40px;
+    height: auto; 
+    margin-right: 10px; */
+  }
+  
+  .nav-search {
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    padding: 0px,10px;
+    height: 40px;
+  }
+  
+  .nav-search input {
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #f0f2f5;
+  }
+  /* ------------------------------ */
+  .nav-midel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+   
+  }
+  .nav-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+    cursor: pointer;
+    height: 40px;
+    align-items: center;
+    
+
+  }
+   .nav-option .MuiSvgIcon-root {
+    font-size: 30px; /* Adjust size as needed */
+} 
+  
+  .nav-option svg {
+    color: gray;
+  }
+ 
+  .nav-option svg:hover {
+    color: #2381fa;
+    content: 'Home';
+  }
+  .option--active svg{
+    color: #2381fa;
+  }
+
+  /* ------------------------------ */
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+  }
+  
+  .info h5 {
+    /* margin-left: 10px; */
+    font-size: 16px;
+  }
+  
+  /* Styles for Avatar */
+  .MuiAvatar-root {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  
+  /* Styles for IconButton */
+  .MuiIconButton-root {
+    background-color: #f0f2f5;
+    color: white; 
+  }
+  .MuiIconButton-root .MuiSvgIcon-root {
+    color: black;
+  }
+  .MuiIconButton-root .MuiSvgIcon-root:hover{
+    color: #2381fa;
+  }
+ 
+  
